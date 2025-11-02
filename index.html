@@ -4,76 +4,89 @@
   <meta charset="UTF-8">
   <title>Charishma Chadalavada | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Charishma Chadalavada</h1>
-      <p>Data Analyst | Business Intelligence | Data Visualization</p>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="about">
-    <div class="container">
-      <img src="https://via.placeholder.com/150" alt="Charishma Chadalavada" class="profile-pic">
-      <h2>About Me</h2>
-      <p>I am a passionate data analyst with a knack for uncovering insights from complex datasets. My expertise lies in data visualization, statistical analysis, and building predictive models. I am driven by a desire to help businesses make data-informed decisions that drive growth and efficiency.</p>
-    </div>
-  </section>
-
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
+  <div class="wrapper">
+    <nav class="sidebar">
+      <div class="sidebar-header">
+        <img src="https://via.placeholder.com/150" alt="Charishma Chadalavada" class="profile-pic">
+        <h1>Charishma Chadalavada</h1>
+        <p>Data Analyst</p>
+      </div>
       <ul>
-        <li>SQL</li>
-        <li>Python (Pandas, NumPy, Scikit-learn)</li>
-        <li>R</li>
-        <li>Tableau</li>
-        <li>Power BI</li>
-        <li>Excel</li>
-        <li>Statistical Analysis</li>
-        <li>Machine Learning</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Customer Segmentation for a Retail Company</h3>
-        <p>Analyzed customer data to identify distinct segments, enabling targeted marketing campaigns. Used clustering algorithms in Python to group customers based on purchasing behavior.</p>
-        <a href="#" target="_blank">View Project</a>
+      <div class="sidebar-footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/chcharishma/" target="_blank">LinkedIn</a>
+            <!-- Add other social links here -->
+        </div>
+        <p>© 2025 Charishma Chadalavada</p>
       </div>
-      <div class="project">
-        <h3>Sales Dashboard for a SaaS Company</h3>
-        <p>Designed and built an interactive sales dashboard in Tableau to track KPIs and monitor performance. The dashboard provided real-time insights into sales trends and helped identify areas for improvement.</p>
-        <a href="#" target="_blank">View Project</a>
-      </div>
-      <div class="project">
-        <h3>Predictive Model for Customer Churn</h3>
-        <p>Developed a machine learning model to predict customer churn for a subscription-based service. The model achieved 85% accuracy and helped the company proactively retain customers.</p>
-        <a href="#" target="_blank">View Project</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: chcharishma91@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/chcharishma/" target="_blank">charishma profile</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Your Name</p>
-  </footer>
+    </nav>
+    <main class="content">
+      <section id="home">
+        <h2>Welcome to my Portfolio</h2>
+        <p>Bridging the gap between data and decisions.</p>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate data analyst with a knack for uncovering insights from complex datasets. My expertise lies in data visualization, statistical analysis, and building predictive models. I am driven by a desire to help businesses make data-informed decisions that drive growth and efficiency.</p>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <span class="skill">SQL</span>
+          <span class="skill">Python</span>
+          <span class="skill">R</span>
+          <span class="skill">Tableau</span>
+          <span class="skill">Power BI</span>
+          <span class="skill">Excel</span>
+          <span class="skill">Pandas</span>
+          <span class="skill">NumPy</span>
+          <span class="skill">Scikit-learn</span>
+          <span class="skill">Statistical Analysis</span>
+          <span class="skill">Machine Learning</span>
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Early Prediction of Sepsis from Clinical Data</h3>
+          <p>This project uses machine learning to detect sepsis 6 hours before clinical onset, based on ICU patient data. Techniques include RNNs for imputation and classification, and models like logistic regression and random forests.</p>
+          <a href="https://github.com/chcharishma91/PADS_Data_Analysis" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+          <h3>Sales Dashboard for a SaaS Company</h3>
+          <p>Designed and built an interactive sales dashboard in Tableau to track KPIs and monitor performance. The dashboard provided real-time insights into sales trends and helped identify areas for improvement.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Predictive Model for Customer Churn</h3>
+          <p>Developed a machine learning model to predict customer churn for a subscription-based service. The model achieved 85% accuracy and helped the company proactively retain customers.</p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </section>
+       <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Placeholder for achievements.</p>
+      </section>
+      <section id="blogs">
+        <h2>Blogs</h2>
+        <p>Placeholder for blog posts.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: chcharishma91@gmail.com</p>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
